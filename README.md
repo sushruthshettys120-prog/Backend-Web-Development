@@ -17,3 +17,6 @@ Prisma + TypeScript CRUD assignment.
 1. `@@map` maps PascalCase Prisma model names to the existing lowercase/plural PostgreSQL tables without renaming or migrating them.
 2. Deleting a doctor with appointments fails because of the foreign-key `ON DELETE RESTRICT` constraint. Delete or reassign the appointments first, or handle the constraint error.
 3. `@db.Date` preserves a date-only PostgreSQL column, while `@db.Timestamp(6)` preserves timestamp columns with microsecond precision.
+
+## Pull request
+This branch contains the completed Prisma CRUD implementation for review.
