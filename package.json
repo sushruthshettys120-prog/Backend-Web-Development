@@ -1,0 +1,1 @@
+{"name":"hospital-appointment-api","version":"1.0.0","private":true,"scripts":{"generate":"prisma generate","seed":"prisma db seed","test":"ts-node src/test.ts"},"prisma":{"seed":"ts-node src/seed.ts"},"dependencies":{"@prisma/client":"^6.0.0","prisma":"^6.0.0"},"devDependencies":{"@types/node":"^22.0.0","ts-node":"^10.9.2","typescript":"^5.0.0"}}
